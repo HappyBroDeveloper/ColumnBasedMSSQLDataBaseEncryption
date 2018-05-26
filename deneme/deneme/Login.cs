@@ -55,7 +55,7 @@ namespace deneme
                 mail.Body = "OTP şifreniz : " + otp + "";
 
                 SmtpServer.Port = 465;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("ahmetesadpolat@gmail.com", "1360Ocak2011");
+                SmtpServer.Credentials = new System.Net.NetworkCredential("*****@gmail.com", "***********");
                 SmtpServer.EnableSsl = true;
 
                 SmtpServer.Send(mail);
